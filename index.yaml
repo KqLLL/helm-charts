@@ -1,9 +1,26 @@
 apiVersion: v1
 entries:
+  gotenberg:
+  - apiVersion: v2
+    appVersion: 7.5.0
+    created: "2022-03-02T10:10:40.225191+08:00"
+    description: A Helm chart for https://github.com/gotenberg/gotenberg
+    digest: 5f94a40cd79ad39b661a1e8af696106bc0864d35518c783d7341036186f6e943
+    home: https://github.com/gotenberg/gotenberg
+    icon: https://user-images.githubusercontent.com/8983173/130322857-185831e2-f041-46eb-a17f-0a69d066c4e5.png6
+    keywords:
+    - converting formats
+    - PDF
+    - API Server
+    name: gotenberg
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/KqLLL/helm-charts/gotenberg-0.1.1.tgz
+    version: 0.1.1
   owasp-modsecurity:
   - apiVersion: v2
     appVersion: 3.3.2
-    created: "2022-03-02T09:34:47.152777+08:00"
+    created: "2022-03-02T10:10:40.225506+08:00"
     description: owasp/modsecurity-crs Helm chart for Kubernetes
     digest: 1b529e5f086f0a235adc65de03e72c0e1fd6111a1662001a6c1d88e3c70f7509
     home: https://hub.docker.com/r/owasp/modsecurity-crs/tags
@@ -16,4 +33,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/KqLLL/helm-charts/owasp-modsecurity-0.1.1.tgz
     version: 0.1.1
-generated: "2022-03-02T09:34:47.152014+08:00"
+generated: "2022-03-02T10:10:40.224675+08:00"
