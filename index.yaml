@@ -1,0 +1,19 @@
+apiVersion: v1
+entries:
+  owasp-modsecurity:
+  - apiVersion: v2
+    appVersion: 3.3.2
+    created: "2022-03-02T09:03:42.511873+08:00"
+    description: owasp/modsecurity-crs Helm chart for Kubernetes
+    digest: 29dec5381ef281c0bca9ffe6e0122b58b4911ff7589ec3c8a45031f6468c1624
+    home: https://hub.docker.com/r/owasp/modsecurity-crs/tags
+    keywords:
+    - cluster
+    - security
+    - WAF
+    name: owasp-modsecurity
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/KqLLL/helm-charts/main/owasp-modsecurity-0.1.1.tgz
+    version: 0.1.1
+generated: "2022-03-02T09:03:42.50995+08:00"
