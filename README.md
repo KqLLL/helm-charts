@@ -1,5 +1,8 @@
 # helm-charts
 This Repository contains some charts
+
+---
+
 Installing Chart
 ```shell
 $ helm repo add kqlll https://raw.githubusercontent.com/KqLLL/helm-charts/main
