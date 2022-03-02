@@ -2,25 +2,28 @@ apiVersion: v1
 entries:
   gotenberg:
   - apiVersion: v2
-    appVersion: 7.5.0
-    created: "2022-03-02T10:20:04.272547+08:00"
-    description: A Helm chart for https://github.com/gotenberg/gotenberg
-    digest: 5f94a40cd79ad39b661a1e8af696106bc0864d35518c783d7341036186f6e943
-    home: https://github.com/gotenberg/gotenberg
-    icon: https://user-images.githubusercontent.com/8983173/130322857-185831e2-f041-46eb-a17f-0a69d066c4e5.png6
+    appVersion: 7.6.0
+    created: "2022-09-05T09:21:45.926708+08:00"
+    description: A Helm chart for Kubernetes,Gotenberg provides a developer-friendly
+      API to interact with powerful tools like Chromium and LibreOffice for converting
+      numerous document formats (HTML, Markdown, Word, Excel, etc.) into PDF files,
+      and more!
+    digest: 702883799d7ec0efa9c1152a8bb002754f2594898dfc3cc44078b752d4eecec3
+    home: https://gotenberg.dev
+    icon: https://user-images.githubusercontent.com/8983173/130322857-185831e2-f041-46eb-a17f-0a69d066c4e5.png
     keywords:
-    - converting formats
+    - golang
     - PDF
-    - API Server
+    - Stateless API
     name: gotenberg
     type: application
     urls:
-    - https://raw.githubusercontent.com/KqLLL/helm-charts/main/gotenberg-0.1.1.tgz
-    version: 0.1.1
+    - https://raw.githubusercontent.com/KqLLL/helm-charts/main/gotenberg-7.6.0.tgz
+    version: 7.6.0
   owasp-modsecurity:
   - apiVersion: v2
     appVersion: 3.3.2
-    created: "2022-03-02T10:20:04.272868+08:00"
+    created: "2022-09-05T09:21:45.92706+08:00"
     description: owasp/modsecurity-crs Helm chart for Kubernetes
     digest: 1b529e5f086f0a235adc65de03e72c0e1fd6111a1662001a6c1d88e3c70f7509
     home: https://hub.docker.com/r/owasp/modsecurity-crs/tags
@@ -33,4 +36,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/KqLLL/helm-charts/main/owasp-modsecurity-0.1.1.tgz
     version: 0.1.1
-generated: "2022-03-02T10:20:04.272059+08:00"
+generated: "2022-09-05T09:21:45.926129+08:00"

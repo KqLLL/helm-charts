@@ -7,5 +7,5 @@ keywords:
   - WAF
 home: https://hub.docker.com/r/owasp/modsecurity-crs/tags
 type: application
-version: 0.1.1
+version: 3.3.2
 appVersion: "3.3.2"
